@@ -1,0 +1,27 @@
+.skill {
+  height: 560px;
+  padding: 112px 96px;
+  display: flex;
+  justify-content: space-between;
+  color: #4b5563;
+  gap: 48px;
+}
+.title {
+  width: 75px;
+  height: 28px;
+  background-color: #e5e7eb;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.skillText {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
