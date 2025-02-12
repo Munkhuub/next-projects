@@ -1,14 +1,14 @@
-.skill {
-  height: 560px;
-  padding: 112px 96px;
-  display: flex;
+.exp {
+  height: 1440px;
+  padding: 96px;
   justify-content: space-between;
-  color: #4b5563;
-  gap: 48px;
+  background-color: #f9fafb;
   flex-direction: column;
+  color: #4b5563;
 }
-.title {
-  width: 75px;
+
+.expTitle {
+  width: 115px;
   height: 28px;
   background-color: #e5e7eb;
   border-radius: 12px;
@@ -19,16 +19,16 @@
   font-weight: 500;
 }
 
-.skillText {
+.expText {
   width: 100%;
   display: flex;
   flex-direction: column;
   gap: 16px;
   align-items: center;
 }
-.box {
-  display: grid;
-  grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: 1fr 1fr;
+.expBox {
+  display: flex;
+  flex-direction: column;
   gap: 48px;
+  align-items: center;
 }
