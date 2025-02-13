@@ -1,0 +1,17 @@
+.footer {
+  height: 68px;
+  display: flex;
+  background-color: rgba(249, 250, 251, 1);
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  color: rgba(75, 85, 99, 1);
+}
+.footer img {
+  width: 16px;
+  height: 16px;
+}
+.footer div {
+  border-right: 1px solid rgba(75, 85, 99, 1);
+  padding-right: 8px;
+}

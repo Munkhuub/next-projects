@@ -1,7 +1,33 @@
-.exp {
+.work {
   width: 100%;
-  padding: 144px 96px;
+  padding: 96px 144px;
   display: flex;
   flex-direction: column;
   gap: 48px;
+}
+
+.workTitle {
+  width: 115px;
+  height: 28px;
+  background-color: #e5e7eb;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.workText {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+.workBox {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  align-items: center;
 }

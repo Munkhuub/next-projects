@@ -1,6 +1,6 @@
 .hero {
   height: 556px;
-  padding: 112px 96px;
+  padding: 96px 112px;
   display: flex;
   justify-content: space-between;
 }
